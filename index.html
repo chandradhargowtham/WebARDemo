@@ -8,10 +8,10 @@
   <body style="margin : 0px; overflow: hidden;">
     <!-- Description Text-->
     
-    <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
+    <a-scene embedded arjs="debugUIEnabled: true;" vr-mode-ui="enabled: false">
     <a-nft
       type="nft"
-      url="/WebARDemo/assets/pinball"
+      url="/WebARDemo/assets/image"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
@@ -19,12 +19,7 @@
     >
       <a-box position="0 0 0" color="red"></a-box>
       </a-nft>
-                        
-      <a-marker preset="kanji">
-                     <a-box position="0 0 0" color="red"></a-box>
-                                       </a-marker>
-      
-          <a-entity camera></a-entity>
+      <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
